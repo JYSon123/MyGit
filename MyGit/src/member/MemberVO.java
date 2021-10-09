@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class MemberVO {
 	   
-
+	   String s7 = "7번째 충돌실험 + 서정씨도 가지고 있을거임";
 	   String s6 = "6번째 충돌실험";
 	   private String userid;             // 회원아이디
 	   private String pwd;                // 비밀번호 (SHA-256 암호화 대상)
