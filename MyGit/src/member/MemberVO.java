@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class MemberVO {
 	   
-	   String s4 = "4번째 충돌실험(버전높임, 3번버전 삭제) ";
+	   String s4 = "5번째 충돌실험";
 	   String s2 = "2번째 충돌실험 ";
 	   String s1 = "원래 7번라인부터 시작했지만 실험을 위해 수정 (원래 7번 라인에 있었음)";
 	   private String userid;             // 회원아이디
@@ -164,21 +164,5 @@ public class MemberVO {
 	public void setRequirePwdChange(boolean requirePwdChange) {
 		this.requirePwdChange = requirePwdChange;
 	}
-
-	public int getAge() {
-		int age = 0;
-		
-		Calendar currentDate = Calendar.getInstance();
-		// 현재 날짜와 시간을 얻어온다.
-		
-		int currentYear = currentDate.get(Calendar.YEAR);
-		// 현재년도만 가져온다.
-		
-		age = currentYear - Integer.parseInt(  birthday.substring(0, 4) ) + 1;
-				
-		return age;
-	}   
-
-	
 
 }
