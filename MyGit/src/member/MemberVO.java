@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class MemberVO {
 	   
-	   String s4 = "4번째 충돌실험(버전높임, 3번버전 삭제) ";
+	   String s4 = "충돌실험, 내 파일 풀 전 수정이 되어있을 경우";
 	   String s2 = "2번째 충돌실험 ";
 	   String s1 = "원래 7번라인부터 시작했지만 실험을 위해 수정 (원래 7번 라인에 있었음)";
 	   private String userid;             // 회원아이디
