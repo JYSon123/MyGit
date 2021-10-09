@@ -4,9 +4,8 @@ import java.util.Calendar;
 
 public class MemberVO {
 	   
-	   String s4 = "5번째 충돌실험";
-	   String s2 = "2번째 충돌실험 ";
-	   String s1 = "원래 7번라인부터 시작했지만 실험을 위해 수정 (원래 7번 라인에 있었음)";
+
+	   String s6 = "6번째 충돌실험";
 	   private String userid;             // 회원아이디
 	   private String pwd;                // 비밀번호 (SHA-256 암호화 대상)
 	   private String name;               // 회원명
