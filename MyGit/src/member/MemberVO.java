@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class MemberVO {
 	   
-	   String s3 = "3번째 충돌실험(버전높임, 서정씨는 2번 버전 없음) ";
+	   String s4 = "4번째 충돌실험(버전높임, 3번버전 삭제) ";
 	   String s2 = "2번째 충돌실험 ";
 	   String s1 = "원래 7번라인부터 시작했지만 실험을 위해 수정 (원래 7번 라인에 있었음)";
 	   private String userid;             // 회원아이디
@@ -33,34 +33,9 @@ public class MemberVO {
 	   /////////////////////////////////////////////////////////////////////
 	   
 	   public MemberVO() {}
+	  
 	   
-	   public MemberVO(String userid, String pwd, String name, String email, String mobile, String postcode,
-	         String address, String detailaddress, String extraaddress) {
-	      this.userid = userid;
-	      this.pwd = pwd;
-	      this.name = name;
-	      this.email = email;
-	      this.mobile = mobile;
-	      this.postcode = postcode;
-	      this.address = address;
-	      this.detailaddress = detailaddress;
-	      this.extraaddress = extraaddress;
-	   }
-	   
-	   public MemberVO(String userid, String pwd, String name, String email, String mobile, String postcode,
-	         String address, String detailaddress, String extraaddress, String gender, String birthday) {
-	      this.userid = userid;
-	      this.pwd = pwd;
-	      this.name = name;
-	      this.email = email;
-	      this.mobile = mobile;
-	      this.postcode = postcode;
-	      this.address = address;
-	      this.detailaddress = detailaddress;
-	      this.extraaddress = extraaddress;
-	      this.gender = gender;
-	      this.birthday = birthday;
-	   }
+	  
 
 	public String getUserid() {
 		return userid;
