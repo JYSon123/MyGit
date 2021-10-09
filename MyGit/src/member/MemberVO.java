@@ -3,6 +3,9 @@ package member;
 import java.util.Calendar;
 
 public class MemberVO {
+		
+	   String son1 = "기존의 파일은 7번부터 줄이 시작했으나 실험을 위해 수정 ";
+	
 	
 	   private String userid;             // 회원아이디
 	   private String pwd;                // 비밀번호 (SHA-256 암호화 대상)
