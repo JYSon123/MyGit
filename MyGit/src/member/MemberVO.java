@@ -4,6 +4,7 @@ import java.util.Calendar;
 
 public class MemberVO {
 	
+	   String s1 = "원래 7번라인부터 시작했지만 실험을 위해 수정 ";
 	   private String userid;             // 회원아이디
 	   private String pwd;                // 비밀번호 (SHA-256 암호화 대상)
 	   private String name;               // 회원명
